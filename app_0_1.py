@@ -76,6 +76,9 @@ def main():
     # image = Image.open('bank.jpeg')
     # st.sidebar.image(image)
 
+    image_url = 'https://www.frontsigns.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/05/Bank-Branding.jpg.webp'
+    st.sidebar.image(image_url)
+
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
     data_file_1 = st.sidebar.file_uploader(
