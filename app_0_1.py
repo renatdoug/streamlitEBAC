@@ -64,7 +64,7 @@ def to_excel(df):
 def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(page_title="Telemarketing analysis",
-                       page_icon="negocio.jpg", layout='wide', initial_sidebar_state='expanded')
+                       layout='wide', initial_sidebar_state='expanded')
 
     # Título principal da aplicação
     st.write('# Telemarketing analysis')
@@ -73,8 +73,8 @@ def main():
     #start = timeit.default_timer()
 
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open('bank.jpeg')
-    st.sidebar.image(image)
+    # image = Image.open('bank.jpeg')
+    # st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
